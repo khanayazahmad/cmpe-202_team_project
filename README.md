@@ -11,7 +11,7 @@
 * [Display Menu API - Vrushali]()
 * [Order/Checkout - Ayaz]()
 * [Payment - Hieu]()
-* [Frontend - All Members]
+* [Frontend - All Members] ()
 
 ## Kanban Task Board
 * [Link to Task Board]()
