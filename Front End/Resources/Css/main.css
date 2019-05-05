@@ -28,13 +28,10 @@ a{
     color:#e67e22;
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid #e67e22;
-    transition: border-bottom 0.3s, color 0.3s;
 }
 
 a:hover{
     color:#555;
-    border-bottom: 1px solid transparent;
 }
 
 
@@ -69,4 +66,28 @@ a:hover{
 
 .btn-success{
     background-color: #27ae60!important;
+}
+
+
+.navbar{
+    background-color: white;
+    margin: 0 -1%;
+    width: 102%;
+    padding-left: 30px;
+}
+
+#navbarSupportedContent{
+    height: 40px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+.nav-link{
+    font-size: 15px;
+    letter-spacing: .18em;
+    margin: 0 5px;
+}
+
+.nav-link:hover{
+    color: #27ae60!important;
 }
