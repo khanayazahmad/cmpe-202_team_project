@@ -14,7 +14,7 @@
 * [Frontend - All Members]()
 
 ## Kanban Task Board
-* [Link to Task Board](https://github.com/nguyensjsu/sp18-281-cloudflare/projects/1)
+* [Link to Task Board](https://github.com/khanayazahmad/cmpe-202_team_project/projects/1)
 
 ## Weekly Kanban Flow Diagram
 * [Link to Weekly Kanban Flow Diagram]()
