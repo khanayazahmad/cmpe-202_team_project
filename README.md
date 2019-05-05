@@ -14,13 +14,13 @@
 * [Frontend - All Members]()
 
 ## Kanban Task Board
-* [Link to Task Board]()
+* [Link to Task Board](https://github.com/khanayazahmad/cmpe-202_team_project/projects/1)
 
-## Weekly Kanban Flow Diagram
+## Kanban Flow Diagram
 * [Link to Weekly Kanban Flow Diagram]()
 
-## Weekly Team Meeting Record
-* [Link to Weekly Team Meeting Record]()
+## Team Meeting Record
+* [Link to Weekly Team Meeting Record](https://github.com/khanayazahmad/cmpe-202_team_project/blob/master/TeamMeeting.md)
 
 ## Agile Core Values
 
@@ -34,8 +34,7 @@
 * [Mohit's Journal]()
 
 ### Respect
-* [Vrushali's Journal]()
+* [Vrushali's Journal](https://github.com/khanayazahmad/cmpe-202_team_project/blob/master/VrushalisJournal/ScrumCoreValue-Respect.md)
 
 ### Architecture Diagram
-
 ![Architecture]()
