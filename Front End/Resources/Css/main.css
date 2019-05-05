@@ -38,8 +38,8 @@ a:hover{
 /*-----------------------------------------------Login Page--------------------------------------------------------*/
 
 .main-container{
-    height: 100vh;
     background-color: #f5f5f5;
+    min-height: 100vh;
 }
 
 #logo{
@@ -74,6 +74,7 @@ a:hover{
     margin: 0 -1%;
     width: 102%;
     padding-left: 30px;
+    height: 15vh;
 }
 
 #navbarSupportedContent{
@@ -90,4 +91,62 @@ a:hover{
 
 .nav-link:hover{
     color: #27ae60!important;
+}
+
+
+.hero-section{
+    height: 85vh;
+    background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url("../Images/newback.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#coffee-img{
+    margin-top: 15vh;
+    margin-left: 20px;
+    transform: rotate(14deg);
+}
+
+.hero-1, .hero-2{
+    height: 100%;
+}
+
+.hero-2{
+    padding-top: 220px;
+    padding-left: 50px;
+}
+
+h4, h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.08em;
+    word-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2{
+    font-variant: small-caps;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.hero-btn{
+    margin-top: 50px;
+    margin-left: -1.5%;
+    padding: 4px 30px;
+    font-variant: all-small-caps;
+    border-radius: 6px;
+    background-color: #27ae60;
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+.hero-btn:hover{
+    background-color: #27ae60;
 }
