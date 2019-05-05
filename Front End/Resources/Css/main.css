@@ -1,0 +1,72 @@
+/*  -------------------------------------------------Basic Setup----------------------------------------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: rgba(85, 85, 85, 0.67);
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix{zoom:1;}
+.clearfix:after{
+    content:".";
+    clear:both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+a{
+    color:#e67e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+a:hover{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
+
+
+/*-----------------------------------------------Login Page--------------------------------------------------------*/
+
+.main-container{
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#logo{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.logo-container{
+    padding-top: 120px;
+}
+
+.signin-heading{
+    margin: 25px 0;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.form-container{
+    margin: 30px 0;
+}
+
+.btn-success{
+    background-color: #27ae60!important;
+}
