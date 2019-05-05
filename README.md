@@ -34,7 +34,7 @@
 * [Mohit's Journal]()
 
 ### Respect
-* [Vrushali's Journal]()
+* [Vrushali's Journal](https://github.com/khanayazahmad/cmpe-202_team_project/blob/master/VrushalisJournal/ScrumCoreValue-Respect.md)
 
 ### Architecture Diagram
 ![Architecture]()
