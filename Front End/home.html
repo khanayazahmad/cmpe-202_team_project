@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="Resources/css/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
     <body>
         <div class="container-fluid main-container">
@@ -15,10 +16,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="#home">HOME</a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">MENU</a>
+                    <a class="nav-link" href="#menu">MENU</a>
                   </li>
                   <li class="nav-item active">
                     <a class="nav-link" href="#">ADD CARD</a>
@@ -35,10 +36,155 @@
                         <h2>Welcome to Starbucks!!</h2>
                         <h4>We represents something beyond a cup of coffee..</h4>
                     </div>
-                    <button class="hero-btn">
+                    <a href="#menu">
+                        <button class="hero-btn">
                         I want a coffee
                     </button>
+                    </a>
                 </div>
+            </div>
+            <div class="row menu-section" id="menu">
+                <h1>
+                    Menu
+                </h1>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" id="coffee" value="Cold Coffee"> <label for="coffee" class="menu-label">Cold Coffee</label>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="row menu-options">
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                    <div class="col menu-option">
+                        <input type="checkbox" name="Cold Coffee" value="Cold Coffee">  <span class="menu-label">Cold Coffee</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success btn-menu">Order</button>
+            </div>
+            <div class="row card-section">
+                <div class="col-md-5 card-image">
+                    <img id="card1" src="Resources/Images/card1.png">
+                    <img id="card2" src="Resources/Images/card2.jpg">
+                </div>
+                <div class="col card-info">
+                    <div class="row money-container">
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $50
+                            </span>
+                        </div>
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $100
+                            </span>
+                        </div>
+                    </div>
+                     <div class="row money-container">
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $50
+                            </span>
+                        </div>
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $100
+                            </span>
+                        </div>
+                    </div>
+                     <div class="row money-container">
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $50
+                            </span>
+                        </div>
+                        <div class="col money-box">
+                            <i class="fas coffee fa-coffee"></i>
+                            <span class="price">
+                                $100
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer">
+                © 2019 Starbucks Coffee Company. All rights reserved.
             </div>
         </div>
         

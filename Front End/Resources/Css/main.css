@@ -75,6 +75,8 @@ a:hover{
     width: 102%;
     padding-left: 30px;
     height: 15vh;
+    z-index: 10000;
+    border-bottom: #f6f6f6;
 }
 
 #navbarSupportedContent{
@@ -149,4 +151,136 @@ h4{
 
 .hero-btn:hover{
     background-color: #27ae60;
+}
+
+h1{
+    padding: 0 7px;
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-variant: all-small-caps;
+    letter-spacing: 0.07em;
+    height: 57px;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.menu-section{
+    background-color: white;
+    padding-bottom: 20px; 
+}
+
+.menu-options{
+    width: 100%;
+    margin-left: 0.2px;
+    margin-top: 5px;
+}
+
+.menu-option{
+    letter-spacing: 0.09em;
+    height: 80px;
+    line-height: 70px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+
+.menu-label{
+    margin-left: 5px;
+}
+
+.btn-menu{
+    letter-spacing: 0.08em;
+    font-variant: small-caps;
+    margin: 20px 0;
+    margin-left: 6.2%;
+}
+
+.menu-option input{
+    height: 17px;
+    display: inline-block;
+}
+
+.card-section{
+    background:  linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url("../Images/back2.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.card-image{
+    position: relative;
+    height: 450px;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.card-info{
+    padding-top: 30px;
+    height: 450px;
+}
+
+#card1, #card2{
+    position: absolute;   
+    width: 300px;
+    height: auto;
+}
+
+#card2{
+    left: 15%;
+}
+
+#card1{
+    left: 35%;
+    top: 30%;
+    z-index: 100;
+}
+
+.money-container{
+    padding: 36px 80px;
+    padding-bottom: 20px;
+}
+
+.money-box{
+    border: 1px solid white;
+    margin-left: 120px;
+    background-color: white;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 70px;
+}
+
+.money-box:hover{
+    background-color: #27ae60;
+    border: 1px solid #27ae60;
+    color: white;
+}
+
+.money-box:hover .coffee{
+    color: white;
+}
+
+.coffee{
+    color: #27ae60;
+    padding: 20px 20px;
+    font-size: 22px;
+}
+
+.price{
+    font-family: Tahoma;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+}
+
+.footer{
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    padding-left: 40px;
+    letter-spacing: 0.06em;
 }
